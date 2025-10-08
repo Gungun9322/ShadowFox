@@ -27,6 +27,14 @@ This is a simple Python project that predicts the **price of a house** in the Bo
   - numpy  
   - scikit-learn  
 
+Enter values for the 5 features when prompted. Example:
+RM: 6.0
+LSTAT: 5.0
+PTRATIO: 15
+CRIM: 0.1
+DIS: 6.0
 
-```bash
-pip install pandas numpy scikit-learn
+The program will show something like:
+Predicted House Price: $16,060.00
+Note: The predicted price is in US Dollars based on the Boston Housing dataset (values in $1000s).
+
